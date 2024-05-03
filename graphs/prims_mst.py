@@ -1,6 +1,4 @@
 from heapq import heappop, heappush 
-import functools 
-
 
 def prims(graph):
     '''
@@ -51,6 +49,5 @@ if __name__=="__main__":
     mst = prims(graph)
     print(mst)
     print(f'Total Weight: {sum([e[0] for e in mst])}')
-    # print(f'Total Weight: {functools.reduce(lambda a,b: a+b, mst)}')
 
 
