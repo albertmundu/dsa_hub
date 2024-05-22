@@ -1,5 +1,3 @@
-
-
 def fractional_knapsack(n, weights, values, capacity):
 
     ratio = [values[i]/weights[i] for i in range(n)]
